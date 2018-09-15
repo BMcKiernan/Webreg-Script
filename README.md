@@ -37,7 +37,7 @@ PASSWORD variables in cron.py    **Gmail will not allow you to log into your ema
 in lines 147 and 149 respectively
 
 3. You need to comment out my_classes on line 33 and input your desired course numbers and section numbers in the my_classes line on
-line 34.
+line 32.
 
 4. You need to change the department number in poll on line 168 in cron.py to whatever department number your trying
 to get classes in.
