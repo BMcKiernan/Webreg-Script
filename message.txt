@@ -1,0 +1,9 @@
+Dear ${PERSON_NAME},
+
+A cs elective is open.
+
+The Course number is: ${COURSE_NUMBER}
+
+Check to see if you got in.
+
+Brian
