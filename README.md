@@ -5,7 +5,7 @@ Big thanks to Vaibhav Verma for his amazing project sniper which is the foundati
 Webreg-Script automatically checks Rutgers Schedule of Courses for open classes and registers users for classes they want. I
 set it up to check Rutgers SOC every twenty seconds and when the courses I wanted were open, it would log me into webreg, register
 me for each course, take a screen shot of the webpage and email me the result letting me know if the script registered me
-before anyone else did.
+before anyone else could.
 
 A little background history about why I made this script. When I should have been studying for my finals for the Spring 2018
 semester I was waiting for webreg to allow people with my quantity of credits to register for classes. When it did I failed
