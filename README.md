@@ -1,22 +1,11 @@
 # Webreg-Script
 
-Big thanks to Vaibhav Verma for his amazing project sniper which is the foundation for this project.
+This script automatically opens the Rutgers course registration website, webreg, logs the user in and registers them for any class which just opened as a result of someone dropping the course. Its a nice set-it and forget-it solution to getting into closed courses and it gives the user peace of mind because it checks with a frequency faster than any human could and when a course opens up it registers the user for the class faster than anyone else can manually.
 
-Webreg-Script automatically checks Rutgers Schedule of Courses for open classes and registers users for classes they want. I
-set it up to check Rutgers SOC every twenty seconds and when the courses I wanted were open, it would log me into webreg, register
-me for each course, take a screen shot of the webpage and email me the result letting me know if the script registered me
-before anyone else could.
+I wrote this because I needed a solution for getting into closed classes that registered me for classes faster than people using RUSniper.
 
-A little background history about why I made this script. When I should have been studying for my finals for the Spring 2018
-semester I was waiting for webreg to allow people with my quantity of credits to register for classes. When it did I failed
-to get into any of the CS classes that I wanted. I was so frustrated I could not focus on studying and I was very apprehensive
-about leaving my entire Fall 2018 semester to the SPN process and risk not graduating on time. I also knew there was a
-slim chance I'd get into the courses by using http://sniper.rutgers.io/ competing with all the other people using it or
-by using any of its monetized clones.
+Big thanks to Vaibhav Verma for his project sniper which provided the code for checking on classes open/closed status.
 
-With some new code for handling emails locally, some hardcoded classes I wanted to be registered for, and some web automation
-libraries, I took Vaibhav's logic for checking for open courses and parsing json data and made a raspberry pi do the rest of the
-work for me. I ended up getting into 4 CS classse for this semester. My friend also used the script to get into 2.
 
 ***FYI I dilberately did not include a requirments.txt and I also removed several necessary imports that would make this code
 functional. I did this because, if everyone could just pull this code and run it, it would defeat the purpose of having
